@@ -1,5 +1,6 @@
 const {User, validate} = require('../../models/admin/user.model');
 const bcrypt = require("bcryptjs");
+
 const Joi = require('joi');
 exports.addUser = async(req, res)=>{
     try{
