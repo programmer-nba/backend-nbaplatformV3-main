@@ -1,5 +1,5 @@
 const {Member} = require('../../models/member.model')
-const bcrypt = require('bcryptjs')
+const bcrypt = require('bcrypt')
 
 exports.getAll = async (req, res)=>{
     try{

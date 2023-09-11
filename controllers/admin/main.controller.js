@@ -1,6 +1,6 @@
 const {User} = require('../../models/admin/user.model')
 const Joi = require('joi');
-const bcrypt = require("bcryptjs");
+const bcrypt = require("bcrypt");
 
 const jwt = require("jsonwebtoken");
 const token_decode = require('../../lib/token_decode');
